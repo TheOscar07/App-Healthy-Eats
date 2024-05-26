@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- Data binding variables -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/etName"
+                style="@style/GreenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/GreenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo Electrónico"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etPreferencias"
+                style="@style/GreenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Preferencias Dietéticas (separadas por coma)" />
+
+            <EditText
+                android:id="@+id/etAlergias"
+                style="@style/GreenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alergias Alimentarias (separadas por coma)" />
+
+            <Button
+                android:id="@+id/btnGuardarPerfil"
+                style="@style/GreenButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Perfil"
+                android:textColor="#263238" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

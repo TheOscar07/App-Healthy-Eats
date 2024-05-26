@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!-- Data binding variables -->
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/las_notificaciones_se_activar_n_para_informarle_sobre_nuevas_recetas_disponibles"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextPrimary" />
+    </RelativeLayout>
+</layout>

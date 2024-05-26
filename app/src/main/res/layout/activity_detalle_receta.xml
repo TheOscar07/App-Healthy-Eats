@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!-- Data binding variables -->
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvNombreReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la Receta"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginBottom="16dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvIngredientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredientes"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvInstrucciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instrucciones"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvValorNutricional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valor Nutricional"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnGuardarFavoritos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar en Favoritos"
+                android:textColor="#263238" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

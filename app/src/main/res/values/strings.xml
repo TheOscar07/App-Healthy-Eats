@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Healthy-Eats</string>
+    <string name="las_notificaciones_se_activar_n_para_informarle_sobre_nuevas_recetas_disponibles">Las notificaciones se activarán para informarle sobre nuevas recetas disponibles.</string>
+    <string name="buscar_recetas">Buscar Recetas</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="perfil_de_usuario">Perfil de Usuario</string>
+</resources>

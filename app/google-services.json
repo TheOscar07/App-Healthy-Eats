@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "795773112087",
+    "project_id": "healthy-eats-7e439",
+    "storage_bucket": "healthy-eats-7e439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795773112087:android:cb5a5c7a1aeea54222f152",
+        "android_client_info": {
+          "package_name": "com.healthy_eats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795773112087-csdd2dt53057mk9ce2s5q4ph9qofb3n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_jW9I1nz3muemMql3CFvLuoUe0tr2MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795773112087-csdd2dt53057mk9ce2s5q4ph9qofb3n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795773112087:android:34a117e6351ebf6422f152",
+        "android_client_info": {
+          "package_name": "com.healthyeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795773112087-csdd2dt53057mk9ce2s5q4ph9qofb3n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_jW9I1nz3muemMql3CFvLuoUe0tr2MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795773112087-csdd2dt53057mk9ce2s5q4ph9qofb3n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
